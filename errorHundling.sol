@@ -6,7 +6,7 @@ import "hardhat/console.sol";
 contract ErrorHandlingExample {
     uint public number;
 
-    function setAge(uint _number) public {
+    function setnumber(uint _number) public {
         number = _number;
     }
 
